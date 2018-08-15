@@ -1,20 +1,18 @@
-/*$("header nav li:first").css({border: "2px solid red"});
+/*$("#contact-methods").next().css({border:"2px solid pink"});*/
 
-$("header nav li:last").css({border: "2px solid red"});*/
+/*$("#social-nav").prev().css({border:"2px solid blue"});*/
 
-/*$("#contact ul:first").css({border: "2px solid red"});
-$("#contact ul:last").css({"border: 2px solid red"});*/
+/*$(".banner-title").parent().css({border:"3px solid pink"});*/
 
-/*$("header nav li:even").css({border: 2px solid blue});
-$("header nav li:odd").css({border: 2px solid yellow});*/
+/*$(".banner-title").parents().css({border:"3px solid pink"});*/
 
-/*$("section:not('#contact')").css({border: "2px solid green"});*/
+/*$("#social-nav").children().css({border:"3px solid green"});*/
 
-/*$("#social-nav li:lt(3)").css({border: "2px solid blue"});*/
-/*$("#social-nav li:gt(2)").css({border: "2px solid blue"});*/
+/*$("#contact").find(".facebook").css({border:"3px solid purple"});*/
 
-/*$("img[alt]").css({border: "2px solid pink"});*/
-/*$("img[alt=quote]").css({border:"2px solid purple"});*/
+/*$("#social-nav").closest(".wrapper").css({border:"3px solid orange"});*/
 
 
 
+
+ 
