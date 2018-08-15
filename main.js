@@ -1,2 +1,2 @@
-$(".button").remove();
-$("#contact img").remove();
+$("#contact img").removeAttr("alt");
+console.log($("#contact img").attr("alt"));
