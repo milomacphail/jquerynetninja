@@ -378,3 +378,7 @@ blockquote {
 blockquote:first-of-type{
     display: block;
 }
+
+#points-of-sale li p {
+    display: none;
+}
