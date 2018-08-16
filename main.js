@@ -1,10 +1,13 @@
 $(document).ready(function(){
-    $("*").on("click", function(e){
-        console.log(e.target);
-        console.log("The event type is " + e.type);
-        console.log("X Coordinate of the event is " + e.pageX);
-        console.log("Y Coordinate of the event is " + e.pageY);
-        e.stopPropagation();
-    });
-
+    
+    function complete(){
+          alert("animation complete");
+      }
+   
+   $("section > h2").on("click", function(){
+      
+      $(this).animate({"width": "500px", "height": "100px"}, 1000, "linear", complete);
+       
+   });
+    
 });
