@@ -1,8 +1,3 @@
-var myLis = $("#points-of-sale li");
-
-myLis.on("click", function(){
-   
-   $(this).css({"background" : "pink"});
-   myLis.off("click");
-   
+$("#lead-banner").click(function(){
+    alert("You Clicked Me")
 });
